@@ -1,13 +1,9 @@
 <?php
 
-namespace App;
+namespace App\Http\Controllers\App;
 
 use App\Http\Controllers\Controller;
-use App\Repositories\{
-    CategoryRepository,
-    ProductRepository,
-    UserRepository
-};
+use App\Repositories\{CategoryRepository, ProductRepository, UserRepository};
 
 class MenuController extends Controller
 {

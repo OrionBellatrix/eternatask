@@ -1,15 +1,12 @@
 <?php
 
-use App\MenuController;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\{
-    LoginController,
-    RegisterController,
+use App\Http\Controllers\App\MenuController;
+use App\Http\Controllers\Auth\{CategoryController,
     DashboardController,
-    CategoryController,
+    LoginController,
     ProductController,
-};
-
+    RegisterController,};
+use Illuminate\Support\Facades\Route;
 
 
 Route::prefix('cp')->group(function () {
